@@ -10,7 +10,7 @@
 
 # Check if Docker is installed
 if ! command -v docker &>/dev/null; then
-    echo "ImageMagick is not installed. Installing..."
+    echo "Docker is not installed. Installing..."
 
     # Install Docker
     curl -fsSL https://get.docker.com | sh;
